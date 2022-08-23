@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://replit.com/badge/github/MetaphoraStudios/becsylon-template)](https://replit.com/@KosmiCKhaoz/becsylon-template)
+
 # Becsylon Template
 
 > A simple template for Typescript BabylonJS applications, using Becsy.
