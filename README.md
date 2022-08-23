@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://replit.com/badge/github/MetaphoraStudios/becsylon-template)](https://replit.com/@KosmiCKhaoz/becsylon-template)
+[![Run on Repl.it](https://replit.com/badge/github/MetaphoraStudios/becsylon-template)](https://replit.com/@KosmiCKhaoz/becsylon-template#README.md)
 
 # Becsylon Template
 
