@@ -2,9 +2,9 @@ import { System, system } from '@lastolivegames/becsy';
 import { MeshRenderable } from '../components/meshRenderable';
 import { Pellet, PelletEater } from '../components/pellets';
 import { Transform } from '../components/transform';
-import { Movement } from './movement';
+import { MeshRenderer } from './meshRenderer';
 
-@system((s) => s.after(Movement))
+@system((s) => s.after(MeshRenderer))
 export class PelletCollider extends System {
   private readonly pellets = this.query(
     (q) =>

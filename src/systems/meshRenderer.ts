@@ -1,8 +1,9 @@
 import { System, system } from '@lastolivegames/becsy';
 import { MeshRenderable } from '../components/meshRenderable';
 import { Transform } from '../components/transform';
+import { Movement } from './movement';
 
-@system
+@system((s) => s.after(Movement))
 export class MeshRenderer extends System {
   private readonly renderables = this.query(
     (q) => q.addedOrChanged.with(MeshRenderable).and.with(Transform).trackWrites
